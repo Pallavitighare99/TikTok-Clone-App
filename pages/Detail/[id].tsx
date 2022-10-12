@@ -13,7 +13,7 @@ import useAuthStore from '../../store/authStore'
 import Comments from '../../components/Comments'
 import LikeButton from '../../components/LikeButton'
 
-
+// sdafd
 interface IProps {
     postDetails: Video,
 }
@@ -183,5 +183,5 @@ export const getServerSideProps = async ({
         props: { postDetails: data },
     }; 
 }
-
+ 
 export default Detail
