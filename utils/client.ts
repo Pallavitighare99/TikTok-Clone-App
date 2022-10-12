@@ -1,4 +1,5 @@
 import sanityClient from '@sanity/client';
+//fuck you
 
 export const client = sanityClient({
   projectId: '0wmlbhxw',
