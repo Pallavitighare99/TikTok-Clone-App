@@ -47,7 +47,7 @@ const Detail = ({ postDetails }: IProps) => {
 
     const handelLike = async (like: Boolean) => {
         if (userProfile) {
-            const { data } = await axios.put(`${BASE_URL}/api/like`, {
+            const { data } = await axios.put(`https://tpshare.vercel.app/api/like`, {
                 userId: userProfile._id,
                 postId: post._id,
                 like
@@ -60,7 +60,7 @@ const Detail = ({ postDetails }: IProps) => {
         e.preventDefault();
         if (userProfile && comment) {
             setIsPostingComment(true)
-            const { data } = await axios.put(`${BASE_URL}/api/post/${post._id}`, {
+            const { data } = await axios.put(`https://tpshare.vercel.app/api/post/${post._id}`, {
                 userId: userProfile._id,
                 comment
             });

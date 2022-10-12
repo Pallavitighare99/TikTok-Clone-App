@@ -17,5 +17,5 @@ export const createOrGetUser = async (response: any, addUser: any) => {
 
   addUser(user);
 
-await axios.post(`${BASE_URL}/api/auth`, user);
+await axios.post(` https://tpshare.vercel.app/api/auth`, user);
 };
