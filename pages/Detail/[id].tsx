@@ -181,7 +181,7 @@ export const getServerSideProps = async ({
 
     return {
         props: { postDetails: data },
-    };
+    }; 
 }
 
 export default Detail
