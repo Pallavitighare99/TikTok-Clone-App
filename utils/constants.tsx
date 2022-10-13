@@ -35,6 +35,10 @@ export const topics = [
     name: 'sports',
     icon: <FaMedal />,
   },
+  {
+    name: 'travel',
+    icon: <GiGalaxy />,
+  }
 ];
 
 export const footerList1 = ['About', 'Newsroom', 'Store', 'Contact', 'Carrers', 'ByteDance', 'Creator Directory']
