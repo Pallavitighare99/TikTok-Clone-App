@@ -47,7 +47,7 @@ const VideoCard: NextPage<Iprops> = ({ post }) => {
                   height={62}
                   className='rounded-full'
                   src={post.postedBy.image}
-                  alt='profile photo'
+                  alt='pallavi tighare'
                   layout='responsive'
                 />
               </>
